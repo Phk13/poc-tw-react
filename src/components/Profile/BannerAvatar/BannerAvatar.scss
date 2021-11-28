@@ -1,0 +1,11 @@
+@import "../../../scss/index.scss";
+
+.banner-avatar {
+  position: relative;
+  background-color: $background-dark-light;
+  height: 220px;
+  margin-bottom: 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
