@@ -1,0 +1,20 @@
+@import "../../../scss/index.scss";
+
+.edit-user-form {
+  form {
+    padding: 0 20px 20px 20px;
+
+    .form-group {
+      padding-bottom: 20px;
+    }
+
+    .btn-submit {
+      position: absolute;
+      top: -44px;
+      right: 25px;
+      border-radius: 50px;
+      font-size: 16px;
+      padding: 4px 15px;
+    }
+  }
+}
