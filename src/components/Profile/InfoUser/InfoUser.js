@@ -1,6 +1,6 @@
 import React from "react";
 import moment from "moment";
-import localization from "moment/locale/es";
+import localization from "moment/locale/en-gb";
 import { Location, Link, DateBirth } from "../../../utils/icons";
 
 import "./InfoUser.scss";
