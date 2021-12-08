@@ -1,4 +1,26 @@
 @import "../../scss/index.scss";
 
 .error-404 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  img {
+    &:first-of-type {
+      width: 150px;
+      margin-bottom: 30px;
+    }
+    &:last-of-type {
+      width: 700px;
+    }
+  }
+
+  a {
+    margin-top: 30px;
+    color: $font-light;
+    font-weight: bold;
+    text-decoration: transparent;
+  }
 }
